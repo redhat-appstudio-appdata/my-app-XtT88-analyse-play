@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-y7dx
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:XtT88-devfile-sample-code-with-quarkus-y7dx
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e6774570f43cdf3f64f7115b2c1795a9f9913d6c815563a175252a2beefb4b3a
         name: my-java-quarkus
         ports:
         - containerPort: 8081
